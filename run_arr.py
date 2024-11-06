@@ -15,6 +15,8 @@ sequence_length = 13
 external_features = data[
     [
         "X_256",
+        "X_256",
+        "X_378",
         "X_378",
     ]
 ]  # Replace with actual external feature names (Xs)

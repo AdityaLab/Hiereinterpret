@@ -15,6 +15,8 @@ sequence_length = 13
 external_features = data[
     [
         "X_256",
+        "X_256",
+        "X_378",
         "X_378",
     ]
 ]  # Replace with actual external feature names (Xs)
@@ -108,13 +110,6 @@ predicted = scaler_y.inverse_transform(predicted.detach().numpy())
 
 # Inverse scale the true values
 y_test_true = scaler_y.inverse_transform(y_test_tensors.detach().numpy())
-
-# Display results
-
-# plt.plot(y_test_true, label="True Processed History")
-# plt.plot(predicted, label="Predicted Processed History")
-# plt.legend()
-# plt.show()
 
 
 # Assuming RNN model and data are already loaded as shown in previous steps
