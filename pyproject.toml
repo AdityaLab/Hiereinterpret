@@ -16,7 +16,5 @@ dependencies = [
     "torch>=2.4.1",
 ]
 
-[tool.uv]
-dev-dependencies = [
-    "jupyter>=1.1.1",
-]
+[dependency-groups]
+dev = ["jupyter>=1.1.1"]
