@@ -1,8 +1,5 @@
 # Hierarchical Industrial Demand Forecasting with Temporal and Uncertainty Explanations
 
-This repository implements the following algorithm for computing node importance
-with respect to a target node `x_i`.
-
 *Appears in the proceedings of the 32nd IEEE International Conference on Data Engineering (ICDE) 2026*
 
 ## Setup
