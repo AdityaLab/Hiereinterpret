@@ -1,20 +1,15 @@
-import numpy as np
+from .hierarchical_importance import (
+    Hierarchy,
+    make_pearson_edge_importance_fn,
+    make_permutation_edge_importance_fn,
+    permutation_edge_importance,
+    propagate_importance_scores,
+)
 
-np.set_printoptions(suppress=True)
-
-
-def hello() -> str:
-    return "Hello from interpretdow!"
-
-
-def sigmoid(x: np.ndarray):
-    """
-    Applies the sigmoid function to each element of a numpy array
-
-    Args:
-        x (np.ndarray): Numpy array
-
-    Returns:
-        (np.ndarray): The sigmoid of each element in `x
-    """
-    return 1 / (1 + np.exp(-x))
+__all__ = [
+    "Hierarchy",
+    "make_pearson_edge_importance_fn",
+    "make_permutation_edge_importance_fn",
+    "permutation_edge_importance",
+    "propagate_importance_scores",
+]
