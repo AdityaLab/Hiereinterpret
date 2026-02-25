@@ -1,6 +1,6 @@
 # Hierarchical Industrial Demand Forecasting with Temporal and Uncertainty Explanations
 
-*Appears in the proceedings of the 32nd IEEE International Conference on Data Engineering (ICDE) 2026*
+*Appears in the 42nd IEEE International Conference on Data Engineering (ICDE) 2026*
 
 ## Setup
 
@@ -67,7 +67,7 @@ The script prints ranked scores and optionally saves them to CSV.
 @inproceedings{kamarthi2026hierarchical,
   title={Hierarchical Industrial Demand Forecasting with Temporal and Uncertainty Explanations},
   author={Kamarthi, Harshavardhan and Xu, Shangqing and Tong, Xinjie and Zhou, Xingyu and Peters, James and Czyzyk, Joseph and Prakash, Aditya},
-  booktitle={Proceedings of the 32nd IEEE International Conference on Data Engineering (ICDE)},
+  booktitle={42nd IEEE International Conference on Data Engineering (ICDE)},
   year={2026}
 }
 ```
